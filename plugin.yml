@@ -1,0 +1,12 @@
+name: SeenPlugin
+main: no.atc.floyd.bukkit.seen.SeenPlugin
+version: 1.11
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+        Basic teleport commands
+commands:
+  seen:
+    description: Check when a player was last seen
+    usage: /<command> <player>
+    permission: seenplugin.seen
