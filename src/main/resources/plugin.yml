@@ -1,0 +1,12 @@
+name: "${project.name}"
+main: no.atc.floyd.bukkit.seen.SeenPlugin
+version: "${project.version}"
+website: "${project.url}"
+author: FloydATC
+description: "${project.description}"
+
+commands:
+  seen:
+    description: Check when a player was last seen
+    usage: /<command> <player>
+    permission: seenplugin.seen
